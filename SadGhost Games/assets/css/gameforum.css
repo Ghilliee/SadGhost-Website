@@ -173,11 +173,13 @@ body {
 .info-box h1 {
   color: #e1e1e1;
   padding-right: 15px;
+  pointer-events: none;
 }
 
 .info-box p {
   color: #e1e1e1;
   padding-right: 15px;
+  pointer-events: none;
 }
 
 .info-box img {
@@ -202,6 +204,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: 30px;
+  pointer-events: none;
 }
 
 .game-info-box p {
@@ -210,6 +213,7 @@ body {
   text-decoration: none;
   padding-left: 25px;
   padding-right: 25px;
+  pointer-events: none;
 }
 
 .game-info-box img {
