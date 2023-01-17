@@ -1,9 +1,10 @@
-html, body {
+html,
+body {
     min-height: 100%;
 }
 
 ::selection {
-  background: #ff3c3c;
+    background: #ff3c3c;
 }
 
 body {
@@ -18,32 +19,41 @@ body {
 
 /* Style page content */
 .main {
-    margin-left: 150px; /* Same as the width of the sidebar */
-    
+    margin-left: 150px;
+    /* Same as the width of the sidebar */
+
 }
 
-.main h1{
+.main h1 {
+    padding-top: 25px;
     font-size: 50px;
-    font-weight: bold; 
+    font-weight: bold;
     text-align: center;
     color: #191919;
 }
-.main p{
+
+.main p {
+    padding: 25px;
     color: #191919;
     font-size: 25px;
-    margin-bottom: 500px;
     text-align: center;
 }
 
 /* The sidebar menu */
 .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 150px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    top: 0; /* Stay at the top */
+    height: 100%;
+    /* Full-height: remove this if you want "auto" height */
+    width: 150px;
+    /* Set the width of the sidebar */
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    top: 0;
+    /* Stay at the top */
     left: 0;
-    background-color: #191919; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
+    background-color: #191919;
+    /* Black */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
     text-align: center;
     padding-top: 20px;
     display: grid;
@@ -63,7 +73,8 @@ body {
 }
 
 .cntbutton {
-    background-color: #ff3c3c; /* Green */
+    background-color: #ff3c3c;
+    /* Green */
     border-radius: 5px;
     padding: 7px 25px;
     margin-bottom: 20px;
@@ -97,29 +108,34 @@ body {
 }
 
 /* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  * {
+/* Firefox */
+* {
     scrollbar-width: thin;
     scrollbar-color: #ff3c3c #e1e1e100;
-  }
+}
 
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
     width: 5px;
-  }
+}
 
-  *::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
     background: #e1e1e100;
-  }
+}
 
-  *::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
     background-color: #ff3c3c;
     border-radius: 0px;
     border: 0px none #191919;
-  }
+}
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
 }
