@@ -129,6 +129,7 @@ body {
   width: 100px;
   white-space: nowrap;
   text-align: center;
+  pointer-events: all;
 }
 
 .updatelogs-box {
@@ -168,18 +169,17 @@ body {
   left: 20px;
   padding-left: 165px;
   color: #e1e1e1;
+  pointer-events: none;
 }
 
 .info-box h1 {
   color: #e1e1e1;
   padding-right: 15px;
-  pointer-events: none;
 }
 
 .info-box p {
   color: #e1e1e1;
   padding-right: 15px;
-  pointer-events: none;
 }
 
 .info-box img {
