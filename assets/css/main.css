@@ -38,9 +38,13 @@ body {
 }
 
 .important-message {
-    margin-left: auto;
-    margin-right: auto;
     box-shadow: 0 10px 25px rgba(0, 0, 0, .6);
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
 }
 
 .important-message h6 {
@@ -49,8 +53,63 @@ body {
     font-weight: bold;
 }
 
+.info-box {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    color: #e1e1e1;
+    pointer-events: none;
+}
+
+.info-box h1 {
+    color: #e1e1e1;
+}
+
+.info-box p {
+    color: #e1e1e1;
+    font-size: medium;
+}
+
+.info-box img {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    color: #e1e1e1;
+    pointer-events: none;
+}
+
+.img-box {
+    width: 100%;
+    height: 100vh;
+    filter: grayscale(100%);
+    transition-duration: 1s;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    position: relative;
+    background-size: 100% 100%;
+}
+
+.img-box:hover {
+    filter: grayscale(0%);
+}
+
+.img-box p {
+    padding: 15px;
+    color: #e1e1e1;
+}
+
+.img-box img {
+    padding: 15px;
+    width: 285px;
+    height: 250px;
+}
+
 /* The sidebar menu */
 .sidenav {
+    z-index: 2;
     height: 100%;
     /* Full-height: remove this if you want "auto" height */
     width: 150px;
@@ -130,7 +189,7 @@ body {
 }
 
 *::-webkit-scrollbar-track {
-    background: #e1e1e100;
+    background: #191919;
 }
 
 *::-webkit-scrollbar-thumb {
