@@ -6,7 +6,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   overflow-x: hidden;
-  font-family: Garamond, serif;
+  font-family: Garamond, serif !important;
   margin: 0;
   padding: 0;
   background: linear-gradient(#e1e1e1, #19191962) no-repeat center center fixed;
@@ -90,6 +90,7 @@ body {
 
 .cntbutton {
   background-color: #ff3c3c;
+  color: #191919;
   /* Green */
   border-radius: 5px;
   padding: 7px 25px;
@@ -188,6 +189,67 @@ body {
   padding-bottom: 15px;
 }
 
+.modal-content {
+  background-color: #191919;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content h6 {
+  text-align: center;
+  margin-top: .5em;
+  color: #ff3c3c;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  pointer-events: none;
+  text-transform: uppercase;
+}
+
+.modal-content p {
+  text-align: center;
+  color: #e1e1e1;
+  text-decoration: none;
+  padding: 15px;
+  pointer-events: none;
+}
+
+.modal-content select {
+  background-color: #222222;
+  color: #535353;
+  border: none;
+  box-shadow: 0 0px 20px #00000099;
+}
+
+.modal-content select:hover {
+  background-color: #535353;
+  color: #e1e1e1;
+  border: none;
+}
+
+.modal-content button {
+  background-color: #222222;
+  color: #535353;
+  margin-top: 1em;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+
+.modal-content button:hover {
+  background-color: #ff3c3c;
+  color: #191919;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 0 5px #ff3c3c,
+    0 0 25px #ff3c3c,
+    0 0 50px #ff3c3c,
+    0 0 100px #ff3c3c;
+}
+
 .game-info-box {
   padding-top: 25px;
   margin-left: auto;
@@ -205,6 +267,7 @@ body {
   font-weight: bold;
   font-size: 30px;
   pointer-events: none;
+  text-transform: uppercase;
 }
 
 .game-info-box p {
@@ -226,6 +289,11 @@ body {
 .game-info-box img:hover {
   box-shadow: 0 10px 25px #00000099;
   filter: grayscale(0%);
+}
+
+.game-info-box select {
+  background-color: #191919;
+  outline-color: #ff3c3c;
 }
 
 .img-box {
