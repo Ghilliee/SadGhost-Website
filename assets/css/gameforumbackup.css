@@ -1,26 +1,59 @@
 html,
 body {
   min-height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-x: hidden;
+  font-family: Garamond, serif !important;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#e1e1e1, #19191962) no-repeat center center fixed;
 }
 
 ::selection {
   background: #ff3c3c;
 }
 
-body {
-  background-color: #c5c4c4;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  overflow-x: hidden;
-  font-family: Garamond, serif;
-}
 
 /* Style page content */
 .main {
   margin-left: 150px;
   /* Same as the width of the sidebar */
+}
+
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background: #191919;
+  box-shadow: 0 10px 25px #00000099;
+}
+
+.footer a {
+  color: #e1e1e1;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  transition: 0.5s;
+}
+
+.footer a:hover {
+  color: #ff3c3c;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.footer h6 {
+  color: #191919;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* The sidebar menu */
@@ -35,6 +68,7 @@ body {
   /* Stay at the top */
   left: 0;
   background-color: #191919;
+  box-shadow: 0 10px 25px #00000099;
   /* Black */
   overflow-x: hidden;
   /* Disable horizontal scroll */
@@ -58,6 +92,7 @@ body {
 
 .cntbutton {
   background-color: #ff3c3c;
+  color: #191919;
   /* Green */
   border-radius: 5px;
   padding: 7px 25px;
@@ -91,24 +126,13 @@ body {
   color: #a8a8a8;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(#e1e1e1, #19191962) no-repeat center center fixed;
-}
-
 .download-box {
-  margin-left: 15px;
-  margin-bottom: 25px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  width: 250px;
-  height: 250px;
-  background: rgba(0, 0, 0, .7);
-  box-sizing: border-box;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
-  border-radius: 15px;
+  padding-right: 200px;
+  padding-bottom: 75px;
+  width: 100px;
+  white-space: nowrap;
   text-align: center;
+  pointer-events: all;
 }
 
 .updatelogs-box {
@@ -143,28 +167,147 @@ body {
 }
 
 .info-box {
-  margin-top: 15px;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 25px;
-  background: rgba(0, 0, 0, .7);
-  box-sizing: border-box;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
-  border-radius: 15px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  padding-left: 165px;
+  color: #e1e1e1;
+  pointer-events: none;
+}
+
+.info-box h1 {
+  color: #e1e1e1;
+  padding-right: 15px;
 }
 
 .info-box p {
-  padding: 15px;
   color: #e1e1e1;
+  padding-right: 15px;
+}
+
+.info-box img {
+  height: 250px;
+  width: 250px;
+  padding-bottom: 15px;
+}
+
+.modal-content {
+  background-color: #191919;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content h6 {
+  text-align: center;
+  margin-top: .5em;
+  color: #ff3c3c;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  pointer-events: none;
+  text-transform: uppercase;
+}
+
+.modal-content p {
+  text-align: center;
+  color: #e1e1e1;
+  text-decoration: none;
+  padding: 15px;
+  pointer-events: none;
+}
+
+.modal-content select {
+  background-color: #222222;
+  color: #535353;
+  border: none;
+  box-shadow: 0 0px 20px #00000099;
+}
+
+.modal-content select:hover {
+  background-color: #535353;
+  color: #e1e1e1;
+  border: none;
+}
+
+.modal-content button {
+  background-color: #222222;
+  color: #535353;
+  margin-top: 1em;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+
+.modal-content button:hover {
+  background-color: #ff3c3c;
+  color: #191919;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 0 5px #ff3c3c,
+    0 0 25px #ff3c3c,
+    0 0 50px #ff3c3c,
+    0 0 100px #ff3c3c;
+}
+
+.game-info-box {
+  padding-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  box-sizing: border-box;
+  background: #191919;
+  box-shadow: 0 10px 25px #00000099;
+}
+
+.game-info-box h6 {
+  text-align: center;
+  color: #ff3c3c;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  pointer-events: none;
+  text-transform: uppercase;
+}
+
+.game-info-box p {
+  text-align: center;
+  color: #e1e1e1;
+  text-decoration: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  pointer-events: none;
+}
+
+.game-info-box img {
+  margin: 50px;
+  box-shadow: 0 10px 25px #00000099;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.game-info-box img:hover {
+  box-shadow: 0 10px 25px #00000099;
+  filter: grayscale(0%);
+}
+
+.game-info-box select {
+  background-color: #191919;
+  outline-color: #ff3c3c;
 }
 
 .img-box {
-  margin-right: 15px;
-  width: auto;
-  background: rgba(0, 0, 0, .7);
-  box-sizing: border-box;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
-  border-radius: 15px;
+  width: 1770px;
+  height: 900px;
+  filter: grayscale(100%);
+  transition-duration: 1s;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+}
+
+.img-box:hover {
+  filter: grayscale(0%);
 }
 
 .img-box p {
@@ -175,6 +318,10 @@ body {
 .img-box img {
   padding: 15px;
   width: 285px;
+  height: 250px;
+}
+
+.game-imgs img {
   height: 250px;
 }
 
@@ -299,12 +446,14 @@ body {
   }
 }
 
+/* download list pop up */
+
 
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #ff3c3c #e1e1e100;
+  scrollbar-color: #ff3c3c #191919;
 }
 
 /* Chrome, Edge, and Safari */
@@ -313,7 +462,7 @@ body {
 }
 
 *::-webkit-scrollbar-track {
-  background: #e1e1e100;
+  background: #191919;
 }
 
 *::-webkit-scrollbar-thumb {
