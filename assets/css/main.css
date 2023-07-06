@@ -86,7 +86,7 @@ body {
     text-decoration: none;
 }
 
-.img-box {
+.img-box-home {
     width: 100%;
     height: 100vh;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
@@ -94,12 +94,12 @@ body {
     z-index: -1;
 }
 
-.img-box p {
+.img-box-home p {
     padding: 15px;
     color: #e1e1e1;
 }
 
-.img-box img {
+.img-box-home img {
     width: 285px;
     height: 250px;
 }
