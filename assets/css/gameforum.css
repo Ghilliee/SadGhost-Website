@@ -128,8 +128,7 @@ body {
 
 .info-box {
   position: absolute;
-  bottom: 20px;
-  top: 320px;
+  bottom: -50px;
   left: 20px;
   padding-left: 20px;
   color: #e1e1e1;
