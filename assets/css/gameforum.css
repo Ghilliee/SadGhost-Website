@@ -135,6 +135,15 @@ body {
   pointer-events: none;
 }
 
+@media (max-width: 1100px) {
+  .game-info-box>p,
+  .info-box{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    font-size: 20px !important;
+  }
+}
+
 .info-box h1 {
   color: #e1e1e1;
   padding-right: 15px;
@@ -256,6 +265,10 @@ body {
 .game-info-box select {
   background-color: #191919;
   outline-color: #ff3c3c;
+}
+
+.bannerContainer {
+  position: relative;
 }
 
 .img-box {
