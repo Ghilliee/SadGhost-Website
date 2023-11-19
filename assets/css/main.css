@@ -126,6 +126,10 @@ body {
     align-content: space-between;
 }
 
+.sidenav button {
+    border: none;
+}
+
 .sidenavlinks {
     display: block;
 }
