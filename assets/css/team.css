@@ -61,6 +61,7 @@ body {
 
 .team-card {
     width: 150px;
+    height: 150px;
     margin: 35px;
     border-radius: 500px;
     filter: grayscale(100%);
