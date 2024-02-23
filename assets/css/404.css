@@ -1,0 +1,42 @@
+body {
+	background-image: url(/assets/img/GameImages/IWasAlone/IWasAlone_Banner_1.png);
+	background-position: center bottom;
+	background-size: cover;
+}
+.main {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	padding: 15rem 2rem;
+	position: relative;
+	flex: 1 1;
+	min-height: 100vh;
+}
+
+body::after {
+	background: linear-gradient(#e1e1e1, #19191962) no-repeat center center fixed;
+	backdrop-filter: grayscale(1) blur(3px);
+	width: 100%;
+	height: 100%;
+	max-width: 100vw;
+	max-height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	content: " ";
+	z-index: -1;
+}
+
+.main h1 {
+	color: #191919;
+	/* color: white; */
+	text-align: center;
+	font-weight: 700;
+	z-index: 2;
+}
+
+@media only screen and (max-width: 600px) {
+	.main {
+		min-height: 25vh;
+	}
+}

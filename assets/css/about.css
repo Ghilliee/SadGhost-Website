@@ -1,69 +1,65 @@
 html,
 body {
-    min-height: 100%;
+	min-height: 100%;
 }
 
 ::selection {
-    background: #ff3c3c;
+	background: #ff3c3c;
 }
 
 body {
-    background: linear-gradient(#e1e1e1, #19191962) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow-x: hidden;
-    font-family: Garamond, serif;
+	background: linear-gradient(#e1e1e1, #19191962) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow-x: hidden;
+	font-family: Garamond, serif;
 }
 
-/* Style page content */
 .main {
-    margin-left: 150px;
-    /* Same as the width of the sidebar */
-
 }
 
 .main h1 {
-    padding-top: 25px;
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    color: #191919;
+	padding-top: 25px;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	color: #191919;
 }
 
 .main p {
-    padding: 10px;
-    color: #191919;
-    font-size: 25px;
-    text-align: center;
+	padding: 10px;
+	color: #191919;
+	font-size: 25px;
+	text-align: center;
 }
 
 .contact {
-    display: table-row;
+	display: table-row;
 }
 
 .contactnumber {
-    color: #ff3c3c;
+	color: #ff3c3c;
 }
 
 .cntbutton {
-    background-color: #ff3c3c;
-    /* Green */
-    border-radius: 5px;
-    padding: 7px 25px;
-    margin-bottom: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
+	background-color: #ff3c3c;
+	/* Green */
+	border-radius: 5px;
+	padding: 7px 25px;
+	margin-bottom: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
 }
 
 .cntbutton:active {
-    transform: translateY(2px);
+	transform: translateY(2px);
 }
 
 .cntbutton:focus {
-    outline: 0;
+	outline: 0;
 }

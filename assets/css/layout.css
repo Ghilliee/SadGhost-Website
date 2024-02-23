@@ -1,0 +1,206 @@
+html,
+body {
+	min-height: 100%;
+}
+
+::selection {
+	background: #ff3c3c;
+}
+
+body {
+	background: linear-gradient(#e1e1e1, #19191962) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow-x: hidden;
+	font-family: Garamond, serif;
+}
+
+/* The sidebar menu */
+.sidenav {
+	height: 100%;
+	/* Full-height: remove this if you want "auto" height */
+	width: 150px;
+	/* Set the width of the sidebar */
+	position: fixed;
+	/* Fixed Sidebar (stay in place on scroll) */
+	top: 0;
+	/* Stay at the top */
+	left: 0;
+	background-color: #191919;
+	/* Black */
+	overflow-x: hidden;
+	/* Disable horizontal scroll */
+	text-align: center;
+	padding-top: 20px;
+	display: grid;
+	align-content: space-between;
+}
+
+.sidenav img[src="/assets/img/favicon.png"],
+.sidenav img[src="assets/img/favicon.png"] {
+	width: 100%;
+	max-height: 75px;
+	max-width: 75px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sidenav .sidenavlinks a.active {
+	color: #e1e1e1;
+}
+
+.main {
+	margin-left: 150px;
+}
+
+.sidenav button {
+	border: none;
+}
+
+.sidenavlinks {
+	display: block;
+}
+
+.contact {
+	display: table-row;
+}
+
+.contactnumber {
+	color: #ff3c3c;
+}
+
+.cntbutton {
+	background-color: #ff3c3c;
+	/* Green */
+	border-radius: 5px;
+	padding: 7px 25px;
+	margin-bottom: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.cntbutton:active {
+	transform: translateY(2px);
+}
+
+.cntbutton:focus {
+	outline: 0;
+}
+
+/* The navigation menu links */
+.sidenav a {
+	padding: 6px 8px 6px 0px;
+	text-decoration: none;
+	font-size: 15px;
+	color: #666666;
+	display: block;
+	transition: 0.5s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenavlinks a:hover {
+	color: #a8a8a8;
+	transition: 0.5s;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+/* * {
+    scrollbar-width: thin;
+    scrollbar-color: #ff3c3c #e1e1e100;
+} */
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #191919;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #ff3c3c;
+	border-radius: 0px;
+	border: 0px none #191919;
+}
+
+@media only screen and (max-width: 600px) {
+	.sidenav {
+		position: initial;
+		flex: 0 1;
+		bottom: 0;
+		width: 100%;
+		height: auto;
+		display: flex;
+		justify-content: space-around;
+		padding-top: 10px;
+		padding-bottom: 15px;
+		align-items: center;
+		flex-direction: column;
+		align-content: center;
+	}
+
+	.sidenav .cntbutton {
+		margin-bottom: 0;
+	}
+
+	.sidenav a {
+		font-size: 15px;
+	}
+
+	.sidenavlinks {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.main {
+		margin-left: 0px;
+	}
+}
+
+/* Styles for screens between 601px and 1024px wide (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+	/* Adjustments for tablet layout */
+}
+
+/* Styles for screens larger than 1024px wide (desktops) */
+@media only screen and (min-width: 1025px) {
+	/* Adjustments for desktop layout */
+}
+
+/* Styles for screens up to 600px wide (smartphones) */
+@media only screen and (max-width: 375px) {
+	.sidenav {
+		position: initial;
+		flex: 0 1;
+		bottom: 0;
+		width: 100%;
+		height: auto;
+		display: flex;
+		justify-content: space-around;
+		padding-top: 10px;
+		padding-bottom: 15px;
+		align-items: center;
+		flex-direction: column;
+		align-content: center;
+	}
+
+	.sidenav .cntbutton {
+		margin-bottom: 0;
+	}
+
+	.sidenav a {
+		font-size: 15px;
+	}
+
+	.sidenavlinks {
+		display: flex;
+		flex-direction: column;
+	}
+}
