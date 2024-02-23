@@ -18,6 +18,9 @@ body {
 }
 
 .main {
+	padding-left: 2.5rem;
+	padding-right: 5em;
+	padding-bottom: 5em;
 }
 
 .game-card {
@@ -82,4 +85,10 @@ body {
 	font-weight: bold;
 	text-align: center;
 	color: #191919;
+}
+
+@media only screen and (max-width: 600px) {
+	.main {
+		padding-right: 2.5;
+	}
 }
