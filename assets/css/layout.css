@@ -162,6 +162,9 @@ body {
 	.main {
 		margin-left: 0px;
 	}
+	.main.row {
+		margin-right: 0px;
+	}
 }
 
 /* Styles for screens between 601px and 1024px wide (tablets) */
