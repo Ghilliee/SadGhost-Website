@@ -1,1 +1,2 @@
 # SadGhost-Website
+[![Discord](https://img.shields.io/discord/975886117519884288?style=for-the-badge&logo=discord&label=Discord&link=https%3A%2F%2Fdiscord.gg%2FeWs7dAySt7)](https://discord.gg/eWs7dAySt7)
