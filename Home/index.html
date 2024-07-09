@@ -71,5 +71,14 @@
 				</p>
 			</div>
 		</div>
+		<script>
+			if (!location.pathname.startsWith("/Home")) {
+				location.pathname = "/Home";
+				setTimeout(function () {
+					// Redundant but just in case
+					location.pathname = "/Home";
+				}, 5000);
+			}
+		</script>
 	</body>
 </html>
