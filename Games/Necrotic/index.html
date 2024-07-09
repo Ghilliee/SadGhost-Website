@@ -75,7 +75,7 @@
 					<div class="row">
 						<div class="download-box">
 							<form>
-								<a data-toggle="modal" data-target="#downloadModal" href="#">
+								<a data-bs-toggle="modal" data-bs-target="#downloadModal" href="#">
 									<span></span>
 									<span></span>
 									<span></span>
@@ -86,7 +86,7 @@
 						</div>
 						<div class="download-box">
 							<form>
-								<a href="https://discord.gg/xgFdmVCbEg" target="_blank">
+								<a href="https://discord.gg/eWs7dAySt7" target="_blank">
 									<span></span>
 									<span></span>
 									<span></span>
@@ -95,7 +95,7 @@
 								</a>
 							</form>
 						</div>
-						<div class="modal fade" id="downloadModal" tabindex="-1" role="dialog" aria-labelledby="downloadModalLabel" aria-hidden="true" data-backdrop="static">
+						<div class="modal fade" id="downloadModal" tabindex="-1" role="dialog" aria-labelledby="downloadModalLabel" aria-hidden="true">
 							<div class="modal-dialog" role="document">
 								<div class="modal-content">
 									<h6 class="modal-title" id="downloadModalLabel">Download Logs</h6>
@@ -148,9 +148,6 @@
 				let selectedOption = document.getElementById("downloadControlForm").value;
 				window.location.href = selectedOption;
 			}
-			$(document).on("click", ".modal-backdrop", function () {
-				$("#downloadModal").modal("hide");
-			});
 		</script>
 	</body>
 </html>
