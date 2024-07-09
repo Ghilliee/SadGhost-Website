@@ -2,7 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://sadghoststudio.com/</loc>
-<lastmod>2024-02-23T11:02:28-05:00</lastmod>
+<lastmod>2024-07-09T16:42:41+00:00</lastmod>
+</url>
+<url>
+<loc>https://sadghoststudio.com/404.html</loc>
+<lastmod>2024-07-09T12:33:14-04:00</lastmod>
 </url>
 <url>
 <loc>https://sadghoststudio.com/About/</loc>
@@ -10,11 +14,11 @@
 </url>
 <url>
 <loc>https://sadghoststudio.com/Discord/</loc>
-<lastmod>2024-02-23T11:02:28-05:00</lastmod>
+<lastmod>2024-07-09T12:33:51-04:00</lastmod>
 </url>
 <url>
 <loc>https://sadghoststudio.com/FAQ/</loc>
-<lastmod>2024-02-23T11:02:28-05:00</lastmod>
+<lastmod>2024-07-09T12:34:12-04:00</lastmod>
 </url>
 <url>
 <loc>https://sadghoststudio.com/Games/</loc>
@@ -22,11 +26,11 @@
 </url>
 <url>
 <loc>https://sadghoststudio.com/Home/</loc>
-<lastmod>2024-02-23T11:02:28-05:00</lastmod>
+<lastmod>2024-07-09T12:43:11-04:00</lastmod>
 </url>
 <url>
 <loc>https://sadghoststudio.com/TOS/</loc>
-<lastmod>2024-02-23T11:02:28-05:00</lastmod>
+<lastmod>2024-07-09T12:35:30-04:00</lastmod>
 </url>
 <url>
 <loc>https://sadghoststudio.com/Team/</loc>
@@ -34,7 +38,7 @@
 </url>
 <url>
 <loc>https://sadghoststudio.com/Games/IWasAlone/</loc>
-<lastmod>2024-02-23T11:02:28-05:00</lastmod>
+<lastmod>2024-07-09T12:11:57-04:00</lastmod>
 </url>
 <url>
 <loc>https://sadghoststudio.com/Games/Necrotic/</loc>
