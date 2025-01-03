@@ -5,6 +5,7 @@ body {
 
 ::selection {
 	background: #ff3c3c;
+	color: #191919;
 }
 
 body {
