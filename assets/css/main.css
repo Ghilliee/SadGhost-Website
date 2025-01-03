@@ -3,10 +3,6 @@ body {
 	min-height: 100%;
 }
 
-::selection {
-	background: #ff3c3c;
-}
-
 body {
 	background: linear-gradient(#e1e1e1, #19191962) no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -14,8 +10,6 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	overflow-x: hidden;
-	/* font-family: Garamond, serif; */
-	font-family: JetBrains Mono, monospace;
 }
 
 .main {
