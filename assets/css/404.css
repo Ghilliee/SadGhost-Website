@@ -2,7 +2,10 @@ body {
 	background-image: url(/assets/img/GameImages/IWasAlone/IWasAlone_Banner_1.png);
 	background-position: center bottom;
 	background-size: cover;
+	/* font-family: Garamond, serif; */
+	font-family: JetBrains Mono, monospace;
 }
+
 .main {
 	align-items: center;
 	display: flex;

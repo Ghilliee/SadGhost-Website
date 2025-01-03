@@ -14,16 +14,20 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	overflow-x: hidden;
-	font-family: Garamond, serif;
+	/* font-family: Garamond, serif; */
+	font-family: JetBrains Mono, monospace;
 }
 
 .main {
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+	padding-bottom: 2.5rem;
 }
 
 .main h1 {
 	margin-top: 50px;
 	margin-bottom: 50px;
-	font-size: 50px;
+	font-size: 100px;
 	font-weight: bold;
 	text-align: center;
 	color: #191919;
@@ -102,22 +106,18 @@ body {
 	outline: 0;
 }
 
-.main {
-	padding-left: 2.5rem;
-	padding-right: 2.5rem;
-	padding-bottom: 2.5rem;
-}
-
 .main .col-auto h3.team-member-name {
 	text-align: center;
 	color: #191919;
 	text-decoration: none;
 }
+
 .main .col-auto h6.team-tags {
 	background: #191919;
 	color: #e1e1e1;
 	text-transform: uppercase;
 }
+
 .main .col-auto a div.team-card img.card-img-top {
 	border-radius: 100%;
 }
