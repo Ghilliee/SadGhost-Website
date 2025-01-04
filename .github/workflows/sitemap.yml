@@ -4,6 +4,7 @@ on:
   push:
     branches: [ main ]
     paths: [ '**.html', '**.pdf' ]
+  workflow_dispatch:
 
 permissions:
   # https://github.com/peter-evans/create-pull-request#action-inputs
