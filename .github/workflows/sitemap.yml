@@ -5,14 +5,15 @@ on:
     branches: [ main ]
     paths: [ '**.html', '**.pdf' ]
 
+permissions:
+  # https://github.com/peter-evans/create-pull-request#action-inputs
+  contents: write
+  pull-requests: write
+
 jobs:
   sitemap_job:
     runs-on: ubuntu-latest
     name: Generate a sitemap
-    permissions:
-      # https://github.com/peter-evans/create-pull-request#action-inputs
-      contents: write
-      pull-requests: write
     steps:
     
     - name: Checkout the repo
