@@ -56,36 +56,6 @@ body {
 	font-weight: bold;
 }
 
-.contact {
-	display: table-row;
-}
-
-.contactnumber {
-	color: #ff3c3c;
-}
-
-.cntbutton {
-	background-color: #ff3c3c;
-	color: #191919;
-	/* Green */
-	border-radius: 5px;
-	padding: 7px 25px;
-	margin-bottom: 20px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	cursor: pointer;
-}
-
-.cntbutton:active {
-	transform: translateY(2px);
-}
-
-.cntbutton:focus {
-	outline: 0;
-}
-
 .download-box {
 	padding-right: 200px;
 	padding-bottom: 75px;
